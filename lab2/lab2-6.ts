@@ -17,8 +17,16 @@ class ReferenceItem {
     }
 }
 
+class Encyclopedia extends ReferenceItem {
+    constructor(public edition: number, title: string, year: number) {
+        super(title, year)
+    }
 
-let ref: ReferenceItem = new ReferenceItem("Neuromancer", 1984)
-ref.printItem()
-ref.publisher = "Ace"
-console.log(ref.publisher)
+    printItem(): void {
+        console.log(`${this.title} was published in ${this.year}`)
+        console.log(`Edition: ${this.edition}`)
+    }
+}
+
+let refBook : Encyclopedia = new Encyclopedia(6666, "6666 Customs Rocket Bunny S13", 2010)
+refBook.printItem()
