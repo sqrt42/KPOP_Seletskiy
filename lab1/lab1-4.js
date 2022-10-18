@@ -3,10 +3,10 @@ exports.__esModule = true;
 function createCustomerID(name, id) {
     return name + " " + id;
 }
-var myID = createCustomerID("Jacket", 0);
+var myID = createCustomerID("Ann", 10);
 console.log(myID);
 var IdGenerator = function (name, id) {
     return name + " " + id;
 };
 IdGenerator = createCustomerID;
-console.log(IdGenerator("Biker", 1));
+console.log(IdGenerator("Ann", 10));

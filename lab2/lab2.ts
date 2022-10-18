@@ -7,7 +7,7 @@ enum Category {
 };
 
 interface IWorker {
-name: string ;
+name: string;
 surname: string; 
 available: boolean; 
 salary: number;

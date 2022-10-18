@@ -1,7 +1,7 @@
 function createCustomerID(name: string, id: number): string {
     return name + " " + id;
   }
-  const myID: string = createCustomerID("Jacket", 0);
+  const myID: string = createCustomerID("Ann", 10);
   console.log(myID);
   
   let IdGenerator: typeof createCustomerID = (
@@ -13,6 +13,6 @@ function createCustomerID(name: string, id: number): string {
   
   IdGenerator = createCustomerID;
   
-  console.log(IdGenerator("Biker", 1));
+  console.log(IdGenerator("Ann", 10));
   export {};
   

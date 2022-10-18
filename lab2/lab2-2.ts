@@ -8,7 +8,7 @@ enum Category {
     Designer, 
     QA, 
     ScumMaster
-};  //idk why it's red. it shouldn't be...
+};
 
 interface IntWorker1 {
     id: number; 
