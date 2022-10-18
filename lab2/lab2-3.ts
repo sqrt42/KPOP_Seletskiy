@@ -12,13 +12,13 @@ interface Librarian extends Person {
     assistCustomer(custName: string): void
 }
 
-let favouriteAuthor: Author = {
+let favoriteAuthor: Author = {
     name: "William Gibson",
     email: "gibson@gmail.com",
     numBooksPublished: 13
 }
 
-let favouriteLibrarian: Librarian = {
+let favoriteLibrarian: Librarian = {
     name: "Richard Morgan",
     email: "morgan@gmail.com",
     department: "Postcyberpunk",
