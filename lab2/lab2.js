@@ -15,7 +15,7 @@ function getAllWorkers() {
         { name: 'Semen', surname: 'Persunov', available: false, salary: 1600, category: Category.Designer, id: 2 },
         { name: 'Van', surname: 'Darkholme', available: true, salary: 3, category: Category.ScumMaster, id: 3 }
     ];
-    return workers; //why the error...
+    return workers;
 }
 ;
 function getWorkerById(id) {

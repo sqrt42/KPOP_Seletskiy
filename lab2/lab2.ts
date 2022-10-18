@@ -6,7 +6,7 @@ enum Category {
     ScumMaster
 };
 
-interface Worker {
+interface IWorker {
 name: string ;
 surname: string; 
 available: boolean; 
@@ -15,7 +15,7 @@ category: Category;
 id: number;
 };
 
-function getAllWorkers(): Worker[] { 
+function getAllWorkers(): IWorker[] { 
     let workers = [
         {name: 'Ryan', surname: 'Gosling', available: true, salary: 1000, category: Category.BusinessAnalyst, id: 0},
         {name: 'Henry', surname: 'Kowalski', available: true, salary: 1500, category: Category.Developer, id: 1 },
@@ -23,10 +23,10 @@ function getAllWorkers(): Worker[] {
         {name: 'Van', surname: 'Darkholme', available: true, salary: 3, category: Category.ScumMaster, id: 3}
     ];
 
-    return workers; //why the error...
+    return workers; 
 };
 
-function getWorkerById(id: number): Worker | undefined {
+function getWorkerById(id: number): IWorker | undefined {
     let workers = getAllWorkers()
     let getWorker = workers.find((worker) => {
         return  worker.id === id
@@ -35,7 +35,7 @@ function getWorkerById(id: number): Worker | undefined {
     return getWorker;
 };
 
-function PrintWorker(worker: Worker) {
+function PrintWorker(worker: IWorker) {
     console.log(worker.name + " " + worker.surname + " got salary " + worker.salary + " hundred bucks");
 };
 
