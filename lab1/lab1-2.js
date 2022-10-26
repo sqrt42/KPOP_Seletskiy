@@ -57,4 +57,4 @@ function logWorkersNames(names) {
         console.log(name);
     });
 }
-logWorkersNames(getWorkersNamesByCategory(Category.ScumMaster));
+logWorkersNames(getWorkersNamesByCategory(Category.QA));

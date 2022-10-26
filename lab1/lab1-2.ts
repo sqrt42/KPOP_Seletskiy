@@ -60,7 +60,7 @@ enum Category {
     });
   }
   
-  logWorkersNames(getWorkersNamesByCategory(Category.ScumMaster));
+  logWorkersNames(getWorkersNamesByCategory(Category.QA));
   
   export {};
   

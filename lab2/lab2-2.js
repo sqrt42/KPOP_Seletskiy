@@ -7,7 +7,7 @@ var Category;
     Category[Category["QA"] = 3] = "QA";
     Category[Category["ScumMaster"] = 4] = "ScumMaster";
 })(Category || (Category = {}));
-; //idk why it's red. it shouldn't be...
+;
 ;
 var logPrize = function (prize) {
     console.log(prize);
