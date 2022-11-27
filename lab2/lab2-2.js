@@ -9,7 +9,7 @@ var Category;
 })(Category || (Category = {}));
 ;
 ;
-var logPrize = function (prize) {
+let logPrize = (prize) => {
     console.log(prize);
 };
 logPrize("100001");

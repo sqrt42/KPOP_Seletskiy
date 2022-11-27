@@ -1,0 +1,10 @@
+.globalContainer {
+    width: fit-content;
+    margin: 0 auto;
+    background-color: #302F4D;
+    padding: 50px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 0px 0px #F24236;
+    color: #DB3069;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}

@@ -1,0 +1,9 @@
+<div class="globalContainer">
+    <p>Coefficient 1: {{coef1}}</p>
+    <p>Coefficient 2: {{coef2}}</p>
+    <p>Coefficient 3: {{coef3}}</p>
+    <p *ngIf = "disc > 0 && disc == 0">Discriminant: {{disc}}</p>
+    <p *ngIf = "disc == 0">X1 = X2 = {{x1}}</p>
+    <p *ngIf = "disc > 0">X1 = {{x1}}</p>
+    <p *ngIf = "disc > 0">X2 = {{x2}}</p>
+</div>

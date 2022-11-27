@@ -9,7 +9,7 @@ var Category;
 ;
 ;
 function getAllWorkers() {
-    var workers = [
+    let workers = [
         { name: 'Ryan', surname: 'Gosling', available: true, salary: 1000, category: Category.BusinessAnalyst, id: 0 },
         { name: 'Henry', surname: 'Kowalski', available: true, salary: 1500, category: Category.Developer, id: 1 },
         { name: 'Semen', surname: 'Persunov', available: false, salary: 1600, category: Category.Designer, id: 2 },
@@ -19,8 +19,8 @@ function getAllWorkers() {
 }
 ;
 function getWorkerById(id) {
-    var workers = getAllWorkers();
-    var getWorker = workers.find(function (worker) {
+    let workers = getAllWorkers();
+    let getWorker = workers.find((worker) => {
         return worker.id === id;
     });
     return getWorker;

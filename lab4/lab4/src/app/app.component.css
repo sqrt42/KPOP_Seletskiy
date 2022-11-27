@@ -1,0 +1,28 @@
+.inputContainer {
+    
+    width: 60%;
+    height: 200px;
+    border-radius: 30px;
+    margin: 2% auto;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #302F4D;
+    color: #DB3069;
+    box-shadow: 10px 10px 0px 0px #F24236;
+}
+
+h1 {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+input {
+    width: 100%;
+    border-radius: 10px;
+    transition: 0.5s all;
+}
+
+input:focus {
+    box-shadow: 5px 10px 0px 0px #8DAA91;
+    border: none;
+}
+
