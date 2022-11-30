@@ -1,0 +1,7 @@
+.errorMessage {
+    color: red;
+}
+
+h1, h2, .content, .snd, .clr, input {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}

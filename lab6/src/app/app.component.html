@@ -1,0 +1,48 @@
+<h1>lab6</h1>
+<div class="table">
+  <table class="center">
+  <thead>
+      <th>Names:</th>
+      <th>Emails:</th>
+      <th>Logins:</th>
+      <th>Passwords:</th>
+      <th>Phones:</th>
+  </thead>
+  <tbody>
+      <tr *ngFor="let users of myUsers">
+          <td>{{users.name}}</td>   
+          <td>{{users.email}}</td>       
+          <td>{{users.login}}</td>
+          <td>{{users.password}}</td>
+          <td>{{users.phone}}</td>
+          <td><button mat-raised-button (click) = "openDialog(users.id)">Details</button></td>
+          
+      </tr>
+  </tbody>
+  </table>
+</div>
+
+<h1>Favorites</h1>
+<div class="buttons">
+<button mat-raised-button (click)="ShowFS()">Show favourites</button><button class="clear" mat-raised-button (click)="ClearFS()">Clear favourites</button>
+</div>
+<div class="favtable">
+  <table class="center">
+  <thead>
+    <th>Names:</th>
+    <th>Emails:</th>
+    <th>Logins:</th>
+    <th>Passwords:</th>
+    <th>Phones:</th>
+  </thead>
+  <tbody>
+      <tr *ngFor="let users of favStored">
+          <td>{{users.name}}</td>   
+          <td>{{users.email}}</td>       
+          <td>{{users.login}}</td>
+          <td>{{users.password}}</td>
+          <td>{{users.phone}}</td>
+      </tr>
+  </tbody>
+  </table>
+</div>

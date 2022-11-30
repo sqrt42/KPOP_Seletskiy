@@ -1,0 +1,16 @@
+<div class="content">
+  <h1>Register an email (lmao)</h1>
+  <h2>Personal info</h2>
+  Surname <input type = "text" [(ngModel)] = "surname"> <p class = "errorMessage">{{errInp1}}</p><br>
+  Name <input type = "text" [(ngModel)] = "name"><p class = "errorMessage">{{errInp2}}</p><br>
+  <h2>Mailbox info</h2>
+  Adress <input type = "text" [(ngModel)] = "adress"><p class = "errorMessage">{{errInp4}}</p><br>
+  Password <input type = "text" [(ngModel)] = "pass"><p class = "errorMessage">{{errInp5}}</p><br>
+  Confirm password <input type = "text" [(ngModel)] = "passConfirm"><p class = "errorMessage">{{errInp6}}</p><br>
+  <h2>Useless stuff</h2>
+  Wanna receive a ton of spam? <label><input name="spam" type = "radio" [(ngModel)] = "spam" value="spamYes">Yes, I'm dumb<input name="spam" type = "radio" [(ngModel)] = "spam" value="spamNo">Get lost</label><p class = "errorMessage">{{errInp7}}</p><br>
+  Wanna receive a ton of forecast spam? <label><input name="forecast" type = "radio" [(ngModel)] = "forecast" value="yes">Yes, I'm dumb<input name="forecast" type = "radio" [(ngModel)] = "forecast" value="no">Get lost</label>
+  <p class = "errorMessage">{{errInp8}}</p> <br>
+  <button class="snd" (click)="checkAllVal()">Hit it</button> <button class="clr" (click)="oblivion()">OBLIVION</button>
+  <h1>{{outRes}}</h1>
+</div>

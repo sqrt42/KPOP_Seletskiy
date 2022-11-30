@@ -1,0 +1,62 @@
+.center {
+    width: 70%;
+    margin-top:10px;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header {
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+.favtable {
+    margin-top:10px;
+    overflow:hidden;
+    height:20%;
+    overflow-y:scroll;
+    margin-bottom:10px;
+    background-color: #4A5759;
+    color: #EDAFB8;
+    border-radius: 50px;
+    width: 80%;
+    margin: 0 auto;
+    box-shadow: 10px 10px 0px 0px rgba(247,225,215,1);
+}
+.table {
+    overflow:hidden;
+    height:500px;
+    width: 80%;
+    margin: 0 auto;
+    overflow-y:scroll;
+    background-color: #4A5759;
+    color: #EDAFB8;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 0px 0px rgba(247,225,215,1);
+}
+table, td, th {
+    text-align: center;
+}
+div{
+    display: flex;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+h1{
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: #EDAFB8;
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: #4A5759;
+    border-radius: 50px;
+    box-shadow: 10px 10px 0px 0px rgba(247,225,215,1);
+}
+
+.mat-raised-button {
+    background-color: #B0C4B1;
+    color: #4A5759;
+    width: 100px;
+    border-radius: 30px;
+}
