@@ -49,7 +49,7 @@ export class AppComponent implements OnInit{
   checkLink(){
     if(this.link == ''){ this.errorMsg ='Enter the link'}
     else if(this.link != 'https://randomuser.me/api/?results=50'){
-      this.errorMsg = "I can't work with other APIs, use this one - https://randomuser.me/api/?results=50"
+      this.errorMsg = "I refuse to work with other APIs, use this one - https://randomuser.me/api/?results=50"
       }
     else{
       this.errorMsg =''
