@@ -1,0 +1,51 @@
+.center {
+    width: 100%;
+    margin-top:10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header {
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+.favtable {
+    margin-top:10px;
+    overflow:hidden;
+    height:20%;
+    overflow-y:scroll;
+    margin-bottom:10px;
+    background-color: #390040;
+    color: #C2C094;
+    width: 100%;
+    margin: 0 auto;
+}
+.table {
+    overflow:hidden;
+    width: 100%;
+    margin: 0 auto;
+
+    background-color: #390040;
+    color: #C2C094;
+}
+table, td, th {
+    text-align: center;
+}
+div{
+
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+h1{
+    text-align: center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    color: #C2C094;
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    background-color: #390040;
+}
+
+.mat-raised-button {
+    background-color: #C2C094;
+    color: #390040;
+    width: 100px;
+}
